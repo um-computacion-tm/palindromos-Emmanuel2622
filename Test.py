@@ -35,10 +35,10 @@ class TestPalindrome(unittest.TestCase):
         self.assertEqual(result, True)
 
     def test_9(self):
-        result = is_palindrome("ana amaria")
+        result = is_palindrome("ana amaana")
         self.assertEqual(result, True)
 
     def test_10(self):
-        result = is_palindrome("ojo coree poco perro cojo")
+        result = is_palindrome("ojo corre poco perro cojo")
         self.assertEqual(result, True)
 unittest.main()
