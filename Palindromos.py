@@ -4,4 +4,4 @@ def is_palindrome(mistring):
         print(mistring[indice] + " --> " + mistring[-(indice +1)])
         if mistring[indice] != mistring[-(indice + 1)]:
             return False
-    return True
+    return True 
