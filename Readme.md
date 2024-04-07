@@ -35,4 +35,4 @@ else:
 
 ## Requisitos
 
-	Python 3.x
+	Python 3.11.2
